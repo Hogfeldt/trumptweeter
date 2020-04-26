@@ -11,7 +11,7 @@ def parse_model_output(string, seed):
         return ' '.join( dropwhile(is_nonsense, string.split() ))
     return skip_upper(outraw_l)
 
-def fetch_tweet(primetext, seed = None, temperature=0.4):
+def fetch_tweet(primetext, seed = None, temperature=0.7):
     """
     if seed is given, it overrides primetext. Otherwise a seed is calculated from the primetext.
     """
