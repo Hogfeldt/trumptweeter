@@ -18,7 +18,7 @@ def fetch_tweet(primetext, seed = None, temperature=0.7):
     REPO_URL = "perhogfeldt/trumptweeter:latest"
     client = docker.from_env()
     container = None
-    model = "cv/lm_lstm_epoch46.57_1.3843.t7"
+    model = "cv/lm_lstm_epoch50.00_1.3809.t7"
     print(model)
     if not seed:
         seed = hashlib.md5(primetext.encode()).hexdigest()
