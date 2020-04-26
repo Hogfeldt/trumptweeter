@@ -16,7 +16,7 @@ pip install .
 
 Run:
 ```
-(trumptweeter) ubuntu@ip-172-31-24-13:~/char-rnn$ python
+$ python
 Python 3.8.2 (default, Mar 26 2020, 15:53:00) 
 [GCC 7.3.0] :: Anaconda, Inc. on linux
 Type "help", "copyright", "credits" or "license" for more information.
